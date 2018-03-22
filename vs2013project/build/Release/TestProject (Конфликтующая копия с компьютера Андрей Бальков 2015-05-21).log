@@ -1,0 +1,77 @@
+﻿Build started 21.05.2015 23:11:46.
+     1>Project "C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\TestProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\VC\bin\CL.exe /c /I"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\..\bin" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\\..\build\Release\\" /Fd"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\\..\build\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main.cpp
+         main.cpp
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(205): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(252): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(254): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(255): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(269): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(270): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(271): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(281): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(296): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(313): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(319): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(336): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(341): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(404): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(405): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(406): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(407): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(423): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(430): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(438): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(445): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(453): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(459): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(475): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(482): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(490): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(497): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(505): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(512): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(523): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(524): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(525): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(559): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(561): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(562): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(563): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(565): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(590): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(596): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(637): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(646): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(659): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(664): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(710): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(723): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(751): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(788): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(799): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(960): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(961): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(962): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(965): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(966): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(971): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(972): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(973): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(974): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(974): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(977): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\андрей\dropbox\проект по инфе\final final version\src\GameSystem.h(978): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\..\bin\TestProject.exe" /INCREMENTAL:NO /NOLOGO sfgui.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\..\bin\TestProject.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\..\bin\TestProject.lib" /MACHINE:X86 /SAFESEH "C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\\..\build\Release\main.obj"
+         Generating code
+         Finished generating code
+         TestProject.vcxproj -> C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\..\bin\TestProject.exe
+     1>Done Building Project "C:\Users\Андрей\Dropbox\Проект по инфе\Final Final Version\vs2013project\TestProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.19

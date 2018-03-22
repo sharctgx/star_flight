@@ -1,0 +1,23 @@
+﻿Build started 30.04.2015 11:21:57.
+     1>Project "C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\TestProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\..\bin" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\\..\build\Debug\\" /Fd"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\\..\build\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main.cpp
+         main.cpp
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(106): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(118): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(138): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(183): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(190): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\gamesystem.h(203): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\testsolution(timer)\src\main.cpp(21): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\..\bin\TestProject.exe" /INCREMENTAL /NOLOGO "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfgui-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\..\bin\TestProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\..\bin\TestProject.lib" /MACHINE:X86 "C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\\..\build\Debug\main.obj"
+     1>LINK : fatal error LNK1168: cannot open C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\..\bin\TestProject.exe for writing
+     1>Done Building Project "C:\Users\ASUS\Dropbox\Проект по инфе\TestSolution(timer)\vs2013project\TestProject.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.76

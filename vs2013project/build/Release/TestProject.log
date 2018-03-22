@@ -1,0 +1,90 @@
+﻿Build started 30.05.2015 11:26:26.
+     1>Project "C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\TestProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\\..\build\Release\) contains files shared from another project (TestProject (Конфликтующая копия с компьютера Джек Капитан 2015-05-21).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\..\bin" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\\..\build\Release\\" /Fd"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\\..\build\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main.cpp
+         main.cpp
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(221): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(264): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(266): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(267): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(281): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(282): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(283): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(295): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(333): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(348): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(372): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(377): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(390): warning C4244: 'argument' : conversion from 'double' to 'sf::Uint8', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(443): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(444): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(445): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(446): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(462): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(470): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(478): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(486): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(495): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(504): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(513): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(520): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(537): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(544): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(552): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(559): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(567): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(575): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(590): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(603): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(611): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(617): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(622): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(633): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(634): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(635): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(671): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(673): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(674): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(675): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(677): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(684): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(687): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(702): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(708): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(751): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(763): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(777): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(783): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(830): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(843): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(871): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(908): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(919): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1085): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1086): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1087): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1090): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1091): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1096): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1097): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1098): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1099): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1099): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1102): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1103): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1103): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\asus\dropbox\проект по инфе\the_most_final_version\final final version\src\GameSystem.h(1104): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\main.cpp(101): warning C4305: '=' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\..\bin\TestProject.exe" /INCREMENTAL:NO /NOLOGO sfgui.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\..\bin\TestProject.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\..\bin\TestProject.lib" /MACHINE:X86 /SAFESEH "C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\\..\build\Release\main.obj"
+         Generating code
+         Finished generating code
+         TestProject.vcxproj -> C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\..\bin\TestProject.exe
+     1>Done Building Project "C:\Users\ASUS\Dropbox\Проект по инфе\The_Most_Final_Version\Final Final Version\vs2013project\TestProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.22
